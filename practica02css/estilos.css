@@ -1,0 +1,124 @@
+body
+{
+font-size: 16px; /*1em*/
+margin:0 auto; /*centramos body*/
+max-width: 1078px; /*empres–cliente*/
+min-width: 1078px;
+
+}
+#granthams
+{
+margin-top: 20px;
+margin-left: 25px;
+}
+
+#bgoffer
+{
+	/*margin-top: -500px;*/
+	left: -35px;
+	position: relative;
+	top: -410px;
+}
+
+#paint
+header nav
+{
+	/*cosa roja*/
+/*border:1px solid red;*/
+/*no funciona por la mancha de pintura*/
+/*text-align: center;*/
+margin-left: 220px;
+}
+header nav ul li
+{
+	border-bottom: 1px solid gray;
+	color: grey;
+	display: inline-block;
+	font-size: 1.5em; 
+	margin-right: 15px;
+	/*text-decoration: under line*/
+
+
+}
+
+header input
+{
+	float: right;
+    margin-right: -200px;
+    margin-top: 15px;
+    position: relative;
+}
+
+
+#paint
+{
+	float: right;
+}
+#primerseccion
+{
+	height: 318px;
+	margin-top: 50px;
+}
+#primerseccion article
+{
+	vertical-align: top;
+}
+#secc01art01
+{
+	margin-left: 30px;
+    width: 60%;
+}
+#segundaseccion article
+{
+	text-align: right;
+
+}
+
+#secc01art02
+{
+	margin-left:50px;
+	width: 30%;
+}
+
+#secc01art02 ul 
+{
+
+list-style: none;
+
+}
+
+
+
+
+#secc01art02 ul li:before
+{
+content: "• ";
+color: #FF0099;
+
+}
+#terceraseccion article img
+{
+vertical-align: middle;
+}
+.colorrosa
+{
+color:#F4A3C6;
+
+
+}
+.nito
+{
+font-weight: bold;
+
+
+}
+
+
+.rosagrande
+{
+font-size: 3em;
+
+
+}
+
+
