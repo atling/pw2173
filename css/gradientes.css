@@ -1,0 +1,13 @@
+article
+{
+	border: 1px solid blue;
+	border-radius: 5px;
+	height: 50px;
+	margin-top: 10px;
+	width: 150px;
+}
+#uno 
+{
+	background: red;
+	background: linear–gradient(red,yellow)
+}
