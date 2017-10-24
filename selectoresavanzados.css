@@ -1,0 +1,111 @@
+img[alt]
+{
+	border: 5px solid blue;
+}
+/*imagen con atributo SRC cadena exacta*/
+img [src="img/alerta.png"]
+{
+width: 400px;
+}
+/*imagen0 con atrubuto SRC con el inicio de la cadena*/
+img[src^="i"]
+{
+width: 150px;
+}
+/*imagen con el atributo SRC al final de la cadena*/
+img[src$="."]
+{
+width: 250px;
+}
+/*Imagen con el atributo SRC en cualquier cadena*/
+img[src*="mg"]
+{
+	width: 1000px;
+}
+/*El caracter ~ indica que estos selectores
+en este article estan separados por espacios*/
+article[class~="resaltado"]
+{
+	border: 1px dashed blue;
+}
+article[class~="archivo"]
+{
+	border: 1px dashed red;
+}
+/*El atributo id es una lista de valores separados
+por guines, pero solo si el valor mas a la izquierda es ingles*/
+article[class|="ingles"]
+{
+	text-align: center;
+
+}
+/*selectro de secundarios para seleccionar
+solamente el (los) <p> ue se encuentran inmediatamente 
+despues del <div>*/
+
+div > p 
+{
+color:blue;
+}
+
+div p
+{
+	color: red;
+}
+seleccionar solo el elemento p que estan
+inmediatament despues del elemento h2
+hermano adyacente
+h2 + p 
+{
+	color: green;
+}
+
+/*sleccionar todos los hermanos del tipo de 
+elemento esecificado hermano mayo*/
+h2 ~ p 
+{
+	color:grey ;
+}
+#resumen,#experimento,#pruebas,#resultados,#conclusiones
+{
+	color:tomato;
+}
+/*seleccionartodos menos la que no quiero
+*/
+section:not(#referencias)
+{
+	color: hotpink;
+}
+
+/*seleccionar elementos LI pares e impares*/
+li:nth-child(odd) /*impar*/
+{
+	color: green;
+}
+li:nth-child(even) /*pares*/
+{
+	color: blue;
+}
+
+li:nth-child(5) /*quinto elemento*/
+{
+	color:red;
+}
+/*primer y el ultimo elemento*/
+article:last-child
+{
+	color:yellow;
+}
+article:first-child
+{
+	color:green;
+}
+
+p:first-line 
+{
+	font-weight: bold;
+	text-transform: 
+}
+
+
+
