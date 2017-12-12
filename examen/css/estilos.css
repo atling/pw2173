@@ -1,0 +1,62 @@
+
+body
+{
+border: 1px solid green;
+
+width: 1200px;
+}
+
+form input
+{
+	margin-bottom: 50px;
+}
+
+img[alt]
+{
+	border: 5px solid blue;
+}
+
+img[src="img/menu.png"]
+{
+	margin-left: 300px;
+width: 1000px;
+}
+
+#seccion1
+{
+	background: #2E2E2E;
+
+}
+#texto1
+{
+
+}
+
+#art-2-s1
+{
+
+display: inline-block;
+
+background: #66FF33;
+}
+#art-3-s1
+{
+background: #585858;
+display: inline-block;
+vertical-align: top;
+}
+#art-4-s1
+{
+	background: #FF0040;
+	display: inline-block;
+	vertical-align: top;
+}
+#art-5-s1
+{
+	background: #F2F2F2;
+}
+
+img[src="img/gu_logo.png"]
+{
+width: 240px;
+}
